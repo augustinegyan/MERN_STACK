@@ -28,9 +28,10 @@ const server = http.createServer((req,res)=>{
         const wpm = 100;
         const obj = {
             name :"20fingers",
-            typeSpeed : `${wpm}`,
+            typeSpeed : `${wpm} wpm`,
             sex : "male"
         };
+        res.writeHead(200,{'Content-Type':'text/html'});
         res.write(JSON.stringify(obj));
         res.end();
     }
