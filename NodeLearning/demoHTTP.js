@@ -24,5 +24,15 @@ const server = http.createServer((req,res)=>{
         res.write("Total sales here");
         res.end();
     }
+    if(req.url === '/api'){
+        const wpm = 100;
+        const obj = {
+            name :"20fingers",
+            typeSpeed : `${wpm}`,
+            sex : "male"
+        };
+        res.write(JSON.stringify(obj));
+        res.end();
+    }
 });
 server.listen(3030)
