@@ -9,7 +9,7 @@
 
 
 //READ FILE
-/*const http = require('http');
+const http = require('http');
 const fs = require('fs');
 http.createServer((req,res)=>{
     fs.readFile('./htmlFiles/demoFile1.html',(err ,data)=>{
@@ -17,7 +17,7 @@ http.createServer((req,res)=>{
         res.write(data);
         return res.end();
     });
-}).listen(2023);*/
+}).listen(2023);
 const fs = require('fs');
 
 //READ FILE
