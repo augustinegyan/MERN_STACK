@@ -8,7 +8,7 @@
 */
 
 
-//READ FILE
+//READ FILE [SERVER SIDE]
 const http = require('http');
 const fs = require('fs');
 http.createServer((req,res)=>{
