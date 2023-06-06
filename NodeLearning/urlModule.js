@@ -9,3 +9,4 @@ console.log(ink.search); //Search -> ?year=2017&month=february
 
 var qdata = ink.query;  //makes the query
 console.log(qdata.month); // Value pair and key data
+
