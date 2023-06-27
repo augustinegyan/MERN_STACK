@@ -9,3 +9,4 @@ app.get('/me/:fname/:id',(req ,res)=>{
     res.send('first name : '+req.params.fname +'id :'+req.params.id);
 })
 app.listen(2000)
+
